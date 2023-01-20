@@ -89,14 +89,11 @@
             list.Add(Zacheti.ToString());
             list.Add(Ekzameni.ToString());
             list.Add(Zachet.ToString());
-            Console.WriteLine(list. + )
+            Console.WriteLine("Семестр = " + list[0] + " " + "Зачеты = " + list[1] + " " + "Экзамены = " + list[2] +" "+ "Сданные зачеты = " + list[3]);
             foreach (string v in list)
             { Console.WriteLine(v); }
             
-            //Console.WriteLine("Семестр = {0}", Semestr);
-            //Console.WriteLine("Зачеты = {0}", Zacheti);
-            //Console.WriteLine("Экзмены = {0}", Ekzameni);
-            //Console.WriteLine("Зачет = {0}", Zachet);
+  
         }
     }
     public class Letnaia : Sessia
@@ -115,6 +112,7 @@
                 {
                     Console.WriteLine("н/зт");
                 }
+                else { Console.WriteLine("н/ат"); }
 
 
             }
